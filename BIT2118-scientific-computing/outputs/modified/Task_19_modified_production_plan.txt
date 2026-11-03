@@ -1,0 +1,11 @@
+PART A - cloud allocation
+original      : continuous A=0.00, B=5.88, cost 105.88 | best integer (cost,A,B) = (108, 0, 6)
+need 1500     : continuous A=0.00, B=8.82, cost 158.82 | best integer (cost,A,B) = (162, 0, 9)
+A cheaper (9) : continuous A=10.00, B=0.00, cost 90.00 | best integer (cost,A,B) = (90, 10, 0)
+
+PART B - production plan
+SLSQP : tables=30.000, chairs=40.000, profit=4100.00
+linprog: tables=30.000, chairs=40.000, profit=4100.00
+Wood used: 240.0/240, labour used: 100.0/100 (both constraints are binding)
+Compare only tables: profit 3500
+Compare only chairs: profit 4000

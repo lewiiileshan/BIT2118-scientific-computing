@@ -1,0 +1,4 @@
+IRR using Newton-Raphson: 11.542461%
+IRR using Secant method: 11.542461%
+Newton iterations: 4, Secant iterations: 7
+NPV at Newton solution: 0.000000

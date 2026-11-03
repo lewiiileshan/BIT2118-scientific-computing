@@ -1,0 +1,13 @@
+PART A - accuracy versus number of points, integral of sin(x) on [0, pi] (exact = 2)
+n= 3: trapezoid error 4.29e-01, Simpson error 9.44e-02
+n= 5: trapezoid error 1.04e-01, Simpson error 4.56e-03
+n= 9: trapezoid error 2.58e-02, Simpson error 2.69e-04
+n=17: trapezoid error 6.43e-03, Simpson error 1.66e-05
+
+PART B - solar energy
+Peak power: 1.638 kW at 12:00
+Energy (trapezoid): 11.2410 kWh
+Energy (Simpson)  : 11.2500 kWh
+Difference        : 0.0090 kWh
+Value at 25 KES/kWh: 281 KES per day
+Daily yield per m^2 of panel: 1.125 kWh/m^2

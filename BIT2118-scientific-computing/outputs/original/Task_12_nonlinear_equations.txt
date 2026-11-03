@@ -1,0 +1,10 @@
+Initial guess: [1.0, 1.0]
+Intersection: [1.51748991 1.30277564]
+Residuals: [np.float64(-2.4780177909633494e-13), np.float64(-2.4158453015843406e-13)]
+Converged: True
+
+Initial guess: [-1.0, 1.0]
+Intersection: [-1.51748991  1.30277564]
+Residuals: [np.float64(-2.4780177909633494e-13), np.float64(-2.4158453015843406e-13)]
+Converged: True
+

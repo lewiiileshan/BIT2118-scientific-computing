@@ -1,0 +1,10 @@
+PART A - polynomial degree on server data
+degree 1: RMSE 18.83 ms, prediction at 400 users 312.9 ms
+degree 2: RMSE 1.55 ms, prediction at 400 users 377.9 ms
+degree 3: RMSE 0.14 ms, prediction at 400 users 387.9 ms
+A higher degree always lowers training error, but extrapolation can become unreliable.
+
+PART B - logistic growth
+Logistic fit: L=1.992 (+/-0.023) million, k=0.959, midpoint=5.04 years
+RMSE logistic 0.027 vs exponential 0.307 (million users)
+Forecast year 15: logistic 1.99 M, exponential 6.7 M

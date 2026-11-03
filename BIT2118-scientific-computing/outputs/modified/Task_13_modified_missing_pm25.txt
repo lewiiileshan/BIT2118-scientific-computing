@@ -1,0 +1,12 @@
+PART A - original temperature data, different query times
+t=8.5: linear 19.000 C, cubic 18.809 C, difference 0.191
+t=10.5: linear 23.250 C, cubic 23.363 C, difference 0.113
+t=12.5: linear 25.250 C, cubic 25.340 C, difference 0.090
+t=13.75: linear 25.125 C, cubic 25.250 C, difference 0.125
+t=15.0 (outside 8-14): ValueError - interpolation does not extrapolate by default
+
+PART B - recovering hidden PM2.5 values
+True hidden values: [65. 36. 45.]
+Linear       : estimates [53.  37.5 47.5], RMSE 7.13
+Cubic spline : estimates [59.6 34.8 48.6], RMSE 3.80
+PCHIP        : estimates [55.1 35.9 49. ], RMSE 6.17

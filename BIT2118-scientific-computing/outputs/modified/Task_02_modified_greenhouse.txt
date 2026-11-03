@@ -1,0 +1,11 @@
+PART A - effect of a +3 C offset
+Original mean: 23.12 C | Heatwave mean: 26.12 C
+Original max : 29.40 C | Heatwave max : 32.40 C
+Std deviation unchanged: 4.1742 vs 4.1742
+Mean in Fahrenheit: 73.62 F -> 79.02 F
+
+PART B - greenhouse soil moisture
+Mean: 34.58 %  Min: 24 % (hour 13)  Max: 42 %
+Hours below 30% threshold: 7 -> hours [9, 10, 11, 12, 13, 14, 15]
+Fraction of day needing irrigation: 29.2%
+Most unusual hour (largest |z|): hour 13 with z = -1.63

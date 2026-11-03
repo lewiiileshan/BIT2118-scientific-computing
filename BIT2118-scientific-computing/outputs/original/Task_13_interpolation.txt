@@ -1,0 +1,2 @@
+Linear estimate at 10:30: 23.25 C
+Cubic estimate at 10:30: 23.36 C

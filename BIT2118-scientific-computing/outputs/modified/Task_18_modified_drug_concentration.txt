@@ -1,0 +1,10 @@
+PART A - RC circuit, voltage after 1 second
+R=1000, C=0.001: tau=1.0000 s, V(1 s)=3.1606 V, V(5 s)=4.9663 V
+R=2000, C=0.001: tau=2.0000 s, V(1 s)=1.9673 V, V(5 s)=4.5896 V
+R=1000, C=0.0002: tau=0.2000 s, V(1 s)=4.9663 V, V(5 s)=5.0000 V
+
+PART B - drug concentration
+Peak concentration: 8.735 mg/L at 1.80 h (analytic tmax = 1.79 h)
+Concentration at 12 h: 1.361 mg/L; at 24 h: 0.123 mg/L
+Maximum difference from analytical solution: 1.07e-09 mg/L
+Elimination half-life: 3.47 h

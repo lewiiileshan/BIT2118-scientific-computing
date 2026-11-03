@@ -1,0 +1,5 @@
+Type A servers: 3
+Type B servers: 4
+Verification A @ solution: [20. 72.]
+Residual: [0. 0.]
+Residual norm: 0.0

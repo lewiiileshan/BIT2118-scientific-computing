@@ -1,0 +1,4 @@
+Bisection equilibrium temperature: 27.525211 C
+Bisection iterations: 38
+Fixed-point equilibrium temperature: 27.525211 C
+Fixed-point iterations: 13

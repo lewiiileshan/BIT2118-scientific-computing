@@ -1,0 +1,13 @@
+PART A - eigenvector centrality of nodes A,B,C,D
+original   : lambda=2.5616, scores=[0.2192 0.2808 0.2808 0.2192]
+add A-D    : lambda=3.0000, scores=[0.25 0.25 0.25 0.25]
+remove B-C : lambda=2.0000, scores=[0.25 0.25 0.25 0.25]
+
+PART B - PageRank
+Dominant eigenvalue of G: 1.000000 (should be 1)
+Home    : eig=0.3412  power-iteration=0.3412
+Blog    : eig=0.2052  power-iteration=0.2052
+News    : eig=0.1848  power-iteration=0.1848
+Contact : eig=0.1420  power-iteration=0.1420
+Shop    : eig=0.1267  power-iteration=0.1267
+Power iteration converged in 37 iterations; difference from eig: 2.09e-13

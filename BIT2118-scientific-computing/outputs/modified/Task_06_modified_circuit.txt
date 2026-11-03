@@ -1,0 +1,13 @@
+Totals CPU=20, MEM=72 -> Type A=3.000, Type B=4.000
+Totals CPU=26, MEM=76 -> Type A=5.000, Type B=3.000
+Totals CPU=20, MEM=80 -> Type A=2.500, Type B=5.000
+Note: (20, 80) gives non-integer servers, so that observation is inconsistent with whole machines.
+
+PART B - mesh currents
+I1 = 508.155 mA
+I2 = 162.232 mA
+I3 = -17.167 mA
+Residual norm: 2.0196621902627922e-15
+Condition number of coefficient matrix: 5.48
+Current through R2 (I1-I2): 345.923 mA, power 2393.251 mW
+Current through R4 (I2-I3): 179.399 mA, power 804.601 mW

@@ -1,0 +1,11 @@
+PART A - IRR with different inputs
+original           : Newton 11.5425% (4 its), secant 11.5425% (7 its)
+larger inflows     : Newton 25.4137% (6 its), secant 25.4137% (7 its)
+far starting guess : Newton -154.4110% (12 its), secant 11.5425% (7 its)
+
+PART B - loan rate
+Total repaid: 252,000 KES; interest paid: 52,000 KES
+Monthly rate - Newton: 1.937918% (4 its), secant: 1.937918% (7 its), bisection: 1.937918% (45 its)
+Nominal annual rate (x12): 23.255%
+Effective annual rate: 25.901%
+Check: payment from rate = 10500.00 KES

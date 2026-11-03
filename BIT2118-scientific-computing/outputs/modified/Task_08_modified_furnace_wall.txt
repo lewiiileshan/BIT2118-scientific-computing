@@ -1,0 +1,11 @@
+PART A - original 5-point grid, changed boundaries/tolerance
+left=100, right=20, tol=1e-08: Jacobi 150 its, Gauss-Seidel 75 its, max error vs exact 2.89e-08
+left=80, right=30, tol=1e-08: Jacobi 150 its, Gauss-Seidel 75 its, max error vs exact 2.84e-08
+left=100, right=20, tol=1e-03: Jacobi 70 its, Gauss-Seidel 35 its, max error vs exact 2.87e-03
+
+PART B - furnace wall (150 C inside, 25 C outside)
+n=10 interior points: Jacobi   385 its, Gauss-Seidel   194 its
+n=20 interior points: Jacobi  1299 its, Gauss-Seidel   654 its
+n=40 interior points: Jacobi  4506 its, Gauss-Seidel  2273 its
+n=20 maximum difference Gauss-Seidel vs direct: 4.34e-07 C
+Temperature at first, middle and last interior points: [144.05  90.48  30.95]

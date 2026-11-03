@@ -1,0 +1,11 @@
+PART A - heat balance f(T) = T - 25 - c*exp(-T/20)
+c=10, start=30.0: bisection 27.525211 C (38 its), fixed-point 27.525211 C (13 its)
+c=15, start=30.0: bisection 28.591212 C (38 its), fixed-point 28.591212 C (15 its)
+c=10, start=38.0: bisection 27.525211 C (38 its), fixed-point 27.525211 C (14 its)
+
+PART B - break-even analysis
+Lower break-even quantity (bisection): 81.41 units (34 its)
+Lower break-even quantity (fixed point from 200): 81.41 units (25 its)
+Upper break-even quantity (bisection): 1163.08 units
+Profitable range: 81 to 1163 units
+Quantity that maximises profit (marginal revenue = marginal cost): 541.6 units, profit 17603 KES

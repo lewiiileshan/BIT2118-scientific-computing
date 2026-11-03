@@ -1,0 +1,19 @@
+PART A - better approximations give smaller errors
+approx=1.414     : absolute=2.14e-04, relative=0.0151%
+approx=1.4142    : absolute=1.36e-05, relative=0.0010%
+approx=1.41421356: absolute=2.37e-09, relative=0.0000%
+np.isclose(0.1+0.2, 0.3) with tolerances:
+  rtol=1e-05, atol=0 -> True
+  rtol=1e-12, atol=0 -> True
+  rtol=1e-17, atol=0 -> False
+
+PART B - accumulated error in a ledger
+Naive loop sum      : 100000.000001  (error 1.332883e-06)
+math.fsum (exact)   : 100000.000000
+np.sum (pairwise)   : 100000.000000
+Integer cents total : 100000.00 KES
+
+Cancellation: (1 - cos x)/x^2 should approach 0.5
+x=1e-02: direct=0.4999958333, stable=0.4999958333
+x=1e-05: direct=0.5000000414, stable=0.5000000000
+x=1e-08: direct=0.0000000000, stable=0.5000000000

@@ -1,0 +1,13 @@
+PART A - overload probability (capacity 1000, mean 850)
+Exact value for std=120 from the normal distribution: 10.57%
+N=  1,000, std=120, seed=42: p=10.1000%  (standard error 0.953%)
+N=100,000, std=120, seed=42: p=10.6160%  (standard error 0.097%)
+N=100,000, std=120, seed=7: p=10.5580%  (standard error 0.097%)
+N=100,000, std=180, seed=42: p=20.2210%  (standard error 0.127%)
+Bonus - pi estimate from 200,000 points: 3.1464
+
+PART B - project schedule risk
+Most-likely plan (sum of modes): 29 days
+Mean total: 32.99 days, std: 4.01 days
+P(finish within 32 days) = 42.18% +/- 0.22% (95% interval)
+80th percentile: 36.4 days, 95th percentile: 39.9 days

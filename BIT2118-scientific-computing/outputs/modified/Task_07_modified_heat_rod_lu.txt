@@ -1,0 +1,11 @@
+diag=4.0: solution=[5. 5. 5.], cond(A)=2.39
+diag=2.5: solution=[12.3256 15.814  17.2093], cond(A)=5.37
+diag=2.05: solution=[28.7877 44.0149 51.4427], cond(A)=13.29
+Smaller diagonal -> larger condition number -> solution more sensitive to errors.
+
+PART B - heat diffusion with implicit stepping
+Max temperature: start 100.0 C -> after 400 steps 99.47 C
+Max difference between LU and np.linalg.solve results: 0.00e+00
+Time with LU reuse (factor once): 0.0120 s (plus one factorisation)
+Time re-solving every step     : 0.4523 s
+Approximate saving: 37.8x

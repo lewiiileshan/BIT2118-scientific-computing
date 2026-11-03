@@ -1,0 +1,13 @@
+PART A - Euler error for cooling
+h=1.0, k=0.12: Euler 26.4041 C, exact 26.7760 C, error 0.3720 C
+h=0.5, k=0.12: Euler 26.5870 C, exact 26.7760 C, error 0.1890 C
+h=0.1, k=0.12: Euler 26.7378 C, exact 26.7760 C, error 0.0383 C
+h=1.0, k=0.5: Euler 25.0000 C, exact 25.0000 C, error 0.0000 C
+h=5.0, k=0.5: Euler 765.3906 C, exact 25.0000 C, error 740.3906 C
+Note h=5, k=0.5 gives h*k=2.5 (> 2): each step multiplies the error by (1-h*k) = -1.5, so Euler is unstable.
+
+PART B - SIR epidemic
+Basic reproduction number R0 = beta/gamma = 3.0
+h=1.0: peak infected 312.7 on day 41.0, total ever infected 947 (94.7%)
+h=0.1: peak infected 302.0 on day 38.6, total ever infected 941 (94.1%)
+h=0.01: peak infected 300.9 on day 38.4, total ever infected 940 (94.0%)

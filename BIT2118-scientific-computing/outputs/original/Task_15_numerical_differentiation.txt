@@ -1,0 +1,7 @@
+t=0s, position=0.0m, estimated speed=4.80m/s
+t=1s, position=4.8m, estimated speed=5.10m/s
+t=2s, position=10.2m, estimated speed=5.65m/s
+t=3s, position=16.1m, estimated speed=6.25m/s
+t=4s, position=22.7m, estimated speed=6.95m/s
+t=5s, position=30.0m, estimated speed=7.65m/s
+t=6s, position=38.0m, estimated speed=8.00m/s

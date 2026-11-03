@@ -1,0 +1,24 @@
+angle= 45, scale=(2.0,1.5) -> det=+3.000, area of square becomes 3.000
+[[ 0.     0.   ]
+ [ 1.414  1.414]
+ [ 0.354  2.475]
+ [-1.061  1.061]]
+angle= 90, scale=(1.0,1.0) -> det=+1.000, area of square becomes 1.000
+[[ 0.  0.]
+ [ 0.  1.]
+ [-1.  1.]
+ [-1.  0.]]
+angle= 45, scale=(2.0,-1.5) -> det=-3.000, area of square becomes 3.000
+[[ 0.     0.   ]
+ [ 1.414  1.414]
+ [ 2.475  0.354]
+ [ 1.061 -1.061]]
+
+PART B - logo about its centroid
+Centroid before: [150. 129.]
+New vertices:
+ [[135.6  103.94]
+ [178.9  128.94]
+ [135.5  154.11]]
+Centroid after : [150. 129.] (unchanged -> pivot works)
+Area before 4350.0, after 1087.5, ratio 0.250 (expected 0.25 = det of scale)

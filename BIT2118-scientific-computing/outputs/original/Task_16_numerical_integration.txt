@@ -1,0 +1,3 @@
+Energy using trapezoidal rule: 15.700 kWh
+Energy using Simpson's rule: 15.800 kWh
+Difference between estimates: 0.100 kWh
